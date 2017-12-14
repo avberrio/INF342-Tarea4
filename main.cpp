@@ -220,13 +220,13 @@ void myinit(void)
     GLfloat mat_ambient[]=   {1.0, 1.0, 1.0, 1.0};
     GLfloat mat_shininess=   {100.0};
     GLfloat light_ambient_0[]= {0.0, 0.0, 0.0, 1.0};
-    GLfloat light_diffuse_0[]= {1.0, 1.0, 1.0, 1.0};
-    GLfloat light_specular_0[]={1.0, 1.0, 1.0, 1.0};
+    GLfloat light_diffuse_0[]= {1.0, 0.0, 0.0, 1.0};
+    GLfloat light_specular_0[]={1.0, 0.0, 0.0, 1.0};
     GLfloat light_position_0[]={-1.0, -1.0, 1.0, 0.0};
     
     GLfloat light_ambient_1[]= {0.0, 0.0, 0.0, 1.0};
-    GLfloat light_diffuse_1[]= {1.0, 1.0, 1.0, 1.0};
-    GLfloat light_specular_1[]={1.0, 1.0, 1.0, 1.0};
+    GLfloat light_diffuse_1[]= {0.0, 0.0, 1.0, 1.0};
+    GLfloat light_specular_1[]={0.0, 0.0, 1.0, 1.0};
     GLfloat light_position_1[]={1.0, -1.0, 1.0, 0.0};
     
     /* set up ambient, diffuse, and specular components for light 0 */
